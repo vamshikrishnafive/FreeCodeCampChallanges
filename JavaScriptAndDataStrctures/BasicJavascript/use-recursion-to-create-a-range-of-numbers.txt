@@ -1,0 +1,11 @@
+function rangeOfNumbers(startNum, endNum) {
+  if(startNum - endNum === 0){
+  return [startNum];
+  } else {
+    var call = rangeOfNumbers(startNum,endNum-1);
+    call.push(endNum);
+    return call;
+  }
+};
+
+console.log(rangeOfNumbers(2,5));

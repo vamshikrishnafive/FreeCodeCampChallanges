@@ -1,3 +1,5 @@
+article is another one of the new HTML5 elements that adds semantic meaning to your markup. article is a sectioning element, and is used to wrap independent, self-contained content. The tag works well with blog entries, forum posts, or news articles.
+
 <h1>Deep Thoughts with Master Camper Cat</h1>
 <main>
   <article>
