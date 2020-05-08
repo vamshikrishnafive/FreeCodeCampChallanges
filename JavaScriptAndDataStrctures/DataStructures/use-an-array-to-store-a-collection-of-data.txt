@@ -1,0 +1,2 @@
+let yourArray = ["a",2,true,"c",{name:"vamshi"}]; // Change this line
+console.log(yourArray);
